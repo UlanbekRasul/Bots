@@ -603,7 +603,7 @@ def process_additional_info(message):
         '\n'.join(user_choices.get(chat_id, [])), contact_info)
 
     # Отправляем данные администратору
-    admin_id = '5013185502'
+    admin_id = '6425572782'
     bot.send_message(admin_id, user_data)
 
     # Сообщаем пользователю, что его информация была отправлена
